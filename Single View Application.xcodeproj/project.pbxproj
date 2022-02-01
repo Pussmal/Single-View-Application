@@ -14,6 +14,8 @@
 		5B26B2D027A9B51B00DA6083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B26B2CF27A9B51B00DA6083 /* Assets.xcassets */; };
 		5B26B2D327A9B51B00DA6083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B26B2D127A9B51B00DA6083 /* LaunchScreen.storyboard */; };
 		5B26B2DB27A9B5B800DA6083 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5B26B2DA27A9B5B800DA6083 /* .gitignore */; };
+		5B26B2DD27A9BD7A00DA6083 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B26B2DC27A9BD7A00DA6083 /* ProfileView.xib */; };
+		5B26B2DF27A9CA1000DA6083 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B2DE27A9CA1000DA6083 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5B26B2D227A9B51B00DA6083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B26B2D427A9B51B00DA6083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B26B2DA27A9B5B800DA6083 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5B26B2DC27A9BD7A00DA6083 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		5B26B2DE27A9CA1000DA6083 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				5B26B2CF27A9B51B00DA6083 /* Assets.xcassets */,
 				5B26B2D127A9B51B00DA6083 /* LaunchScreen.storyboard */,
 				5B26B2D427A9B51B00DA6083 /* Info.plist */,
+				5B26B2DC27A9BD7A00DA6083 /* ProfileView.xib */,
+				5B26B2DE27A9CA1000DA6083 /* ProfileView.swift */,
 			);
 			path = "Single View Application";
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B26B2DB27A9B5B800DA6083 /* .gitignore in Resources */,
+				5B26B2DD27A9BD7A00DA6083 /* ProfileView.xib in Resources */,
 				5B26B2D327A9B51B00DA6083 /* LaunchScreen.storyboard in Resources */,
 				5B26B2D027A9B51B00DA6083 /* Assets.xcassets in Resources */,
 				5B26B2CE27A9B51A00DA6083 /* Main.storyboard in Resources */,
@@ -142,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B26B2DF27A9CA1000DA6083 /* ProfileView.swift in Sources */,
 				5B26B2CB27A9B51A00DA6083 /* ViewController.swift in Sources */,
 				5B26B2C727A9B51A00DA6083 /* AppDelegate.swift in Sources */,
 				5B26B2C927A9B51A00DA6083 /* SceneDelegate.swift in Sources */,
