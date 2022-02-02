@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileView" customModule="Single_View_Application" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -53,6 +53,13 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <connections>
+                <outlet property="aboutDevoloper" destination="jkh-IJ-Qhw" id="H7e-bb-tqT"/>
+                <outlet property="avatarImageView" destination="zCm-sZ-snD" id="nBE-d6-mqS"/>
+                <outlet property="birthdayLabelView" destination="7EC-iV-MZk" id="AEn-st-zwc"/>
+                <outlet property="cityLabelView" destination="DLi-uz-7tN" id="3EN-sy-ZMx"/>
+                <outlet property="nameLabelView" destination="voS-BG-ta6" id="PwI-LI-HZN"/>
+            </connections>
             <point key="canvasLocation" x="136.23188405797103" y="82.366071428571431"/>
         </view>
     </objects>
